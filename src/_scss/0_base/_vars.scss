@@ -1,0 +1,14 @@
+//FONT common
+@font-face {
+    font-family: "Franklin Gothic";
+    src: url("../../_public/assets/fonts/Franklin\ Gothic\ Demi\ Regular.ttf");
+}
+$primary-font: "Noto Sans JP", sans-serif;
+$font2: "Franklin Gothic",sans-serif;
+
+
+@mixin container() {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
